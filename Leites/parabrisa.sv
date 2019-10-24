@@ -97,6 +97,6 @@ module top(input  logic clk_2,
     // saidas
     LED[7] <= clk_1;
     LED[1] <= (state == fast);
-    LED[0] <= (state == fast || state == slow);
+    LED[0] <= (state == slow);
   end
 endmodule
