@@ -49,7 +49,7 @@ parameter m = 4*t;
 
 // Aqui tem que ter vários bits de tamanho para dar certo.
 // Pra 15 dígitos hexadecimais têm que ser 64 bits.
-// Pra 12 dígitos hexadecimais têm que ser 49 bits.
+// Pra 12 dígitos hexadecimais têm que ser 50 bits.
 // inicializa a como sendo 1. Poderia ser apenas "logic [63:0] a;",
 // mas aí precisaria dar reset quando o programa iniciar.
 logic [63:0] a = 1;
